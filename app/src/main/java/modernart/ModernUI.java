@@ -1,4 +1,4 @@
-package com.example.umarquadri.modernartui;
+package modernart;
 
 
 import android.app.DialogFragment;
@@ -13,6 +13,8 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.LinearLayout;
 import android.widget.SeekBar;
+
+import com.example.umarquadri.modernartui.R;
 
 
 public class ModernUI extends ActionBarActivity {

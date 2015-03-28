@@ -1,4 +1,4 @@
-package com.example.umarquadri.modernartui;
+package modernart;
 
 
 import android.app.AlertDialog;
@@ -6,6 +6,8 @@ import android.app.Dialog;
 import android.app.DialogFragment;
 import android.content.DialogInterface;
 import android.os.Bundle;
+
+import com.example.umarquadri.modernartui.R;
 
 /**
  * Created by Umar Quadri on 22-03-2015.
