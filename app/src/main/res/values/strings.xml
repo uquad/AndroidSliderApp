@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">ModernArtUI</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="more_info_item">More Information</string>
+    <string name="more_info_dialog_title"> Inspired by the work of artists such as John Snow </string>
+    <string name="more_info_dialog_text">Click Below to learn more!</string>
+    <string name="more_info_dialog_Yes">Visit MOMA</string>
+    <string name="more_info_dialog_No">Not now</string>
+
+</resources>

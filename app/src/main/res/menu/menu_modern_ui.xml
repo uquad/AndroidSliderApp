@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools" tools:context=".ModernUI">
+
+
+
+    <item
+        android:id="@+id/more_info_item_menu"
+        app:showAsAction="never"
+        android:title="@string/more_info_item">
+    </item>
+</menu>

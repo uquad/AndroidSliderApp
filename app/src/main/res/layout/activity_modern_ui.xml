@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tiler"
+    android:weightSum="5">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/childTiler"
+        android:background="#ff000000">
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="517dp"
+            android:layout_gravity="center_horizontal"
+            android:weightSum="3"
+            android:layout_weight="0.5"
+            android:background="#ff000000">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="199dp"
+                android:layout_height="match_parent"
+                android:gravity="right"
+                android:padding="1dp"
+                android:weightSum="3"
+                android:background="#ff000000">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:weightSum="1"
+                    android:background="#ff7eff7e"
+                    android:id="@+id/tileOne"
+                    android:padding="1dp"
+                    android:layout_margin="4dp"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:weightSum="1"
+                    android:id="@+id/tileTwo"
+                    android:background="#ffffffff"
+                    android:layout_margin="4dp">
+                    android:background="@drawable/customdrawable"
+                    android:padding="1dp"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:weightSum="1"
+                    android:transitionGroup="true"
+                    android:background="#ff9092ff"
+                    android:id="@+id/tileThree"
+                    android:padding="1dp"
+                    android:layout_margin="4dp"></LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="left"
+                android:gravity="left"
+                android:weightSum="2"
+                android:padding="1dp"
+                android:background="#ff000000">
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_weight="1"
+                    android:background="#ffff8684"
+                    android:id="@+id/tileFour"
+                    android:padding="1dp"
+                    android:layout_margin="4dp"></LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:background="#ffff94f0"
+                    android:id="@+id/tileFive"
+                    android:padding="1dp"
+                    android:layout_margin="4dp"></LinearLayout>
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <SeekBar
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/seekBar"
+            android:indeterminate="false"
+            android:max="130"
+            android:progress="0" />
+    </LinearLayout>
+
+</LinearLayout>
